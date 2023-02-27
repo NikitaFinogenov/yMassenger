@@ -17,20 +17,22 @@ import androidx.compose.ui.unit.dp
 import org.intellij.lang.annotations.JdkConstants.HorizontalAlignment
 
 @Composable
-fun LoginScreen(onNextScreenClick: () -> Unit, onSignUpClick:() -> Unit ){
+fun LoginScreen(onNextScreenClick: () -> Unit, onSignUpClick: () -> Unit) {
     var email = remember { mutableStateOf("") }
     var password = remember { mutableStateOf("") }
     Column(modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
         Spacer(modifier = Modifier.weight(1f))
-        TextField(value = email.value, onValueChange = {email.value = it})
+        TextField(value = email.value, onValueChange = { email.value = it })
         Spacer(modifier = Modifier.height(16.dp))
-        TextField(value = password.value, onValueChange = {password.value = it})
+        TextField(value = password.value, onValueChange = { password.value = it })
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = { onSignUpClick() }) {
             Text(text = "Войти")
         }
         Spacer(modifier = Modifier.height(4.dp))
-        ClickableText(text = AnnotatedString("Зарегистрироваться"), onClick = {onNextScreenClick()})
+        ClickableText(
+            text = AnnotatedString("Зарегистрироваться"),
+            onClick = { onNextScreenClick() })
 
 
         Spacer(modifier = Modifier.weight(2f))
