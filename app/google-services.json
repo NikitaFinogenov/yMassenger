@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977977692310",
+    "project_id": "ymessenger-f867c",
+    "storage_bucket": "ymessenger-f867c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977977692310:android:967b7e100ab3400876b2b7",
+        "android_client_info": {
+          "package_name": "com.example.android.eggtimernotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977977692310-7mjl9tk4trp2shs3scokc70rhu78h1eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqshwb2xML_NHDiHZWvBXvfddSJVHjRH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977977692310-7mjl9tk4trp2shs3scokc70rhu78h1eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
